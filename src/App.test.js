@@ -1,8 +1,6 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('sum should be 6', () => {
+//   render(<App />);
+//   const linkElement = screen.getByTitle("sum");
+//   expect(linkElement.textContent).toBe("4");
+// });

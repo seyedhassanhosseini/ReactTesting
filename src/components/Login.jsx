@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState } from "react";
 
 const Login = () => {
@@ -10,10 +9,13 @@ const Login = () => {
       <form>
         <input
           type="text"
+          placeholder="username"
+          value="seyed"
           
         />
         <input
           type="password"
+          placeholder="password"
          
         />
         <button >
